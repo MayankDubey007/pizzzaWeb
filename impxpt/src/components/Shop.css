@@ -1,0 +1,27 @@
+.shop{
+    width:100%;
+    height: 500px;
+    background: url('../img/one.jpg');
+    background-attachment:fixed;
+}
+.shop__text{
+    display: flex;
+    height: 450px;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.shop__text h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 6 00;
+    font-style: normal;
+    letter-spacing: 0.5px;
+
+}
+@media (max-width: 700px){
+.shop h1{
+    font-size:25px;
+}
+}
